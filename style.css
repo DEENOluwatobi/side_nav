@@ -17,9 +17,9 @@ nav{
 }
 .nav-expand{
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: -1.2rem;
-    z-index: 99;
+    z-index: 100;
     width: 2.5rem;
     height: 2.5rem;
     border: 1px solid lightgrey;
@@ -41,6 +41,7 @@ nav{
 }
 ul{
     margin: 10px 0;
+    overflow: hidden;
 }
 ul li{
     list-style: none;
